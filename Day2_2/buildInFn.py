@@ -1,0 +1,9 @@
+"""
+print()
+input()
+set() - take list and return set
+int()
+
+EACH DATA TYPE HAS ITS OWN BUILT IN FUNCTON WHICH ARE USEFUL/MAKES SENSE ONLY FOR THIS SPECIFIC DATA TYPE
+
+"""

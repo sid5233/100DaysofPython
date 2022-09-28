@@ -13,4 +13,4 @@ for  mon in mySet:
     print(mon)
 
 mySet.add("April")
-print(mySet)
+print(dir(mySet))
