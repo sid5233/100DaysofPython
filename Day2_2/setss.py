@@ -1,3 +1,14 @@
+"""
+set does not allow duplicate value
+UNORDERED AND UNCHANGEBLE
+items in set do not have a defined order
+item cannot be referred to by index
+item cannot be changed, only added or removed
+can access only in loop  
+"""
+
+
+
 unit = "Hours"
 calUnit = 24
 
@@ -21,5 +32,5 @@ def validate():
 days= ""
 while days != "exit":
     days = input(f"Hey Please input number : \n")
-    for num in days.split():
+    for num in set(days.split()):
         validate()
