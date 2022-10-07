@@ -10,5 +10,7 @@ noOfProductDict = {}
 for i in range(2,data.max_row + 1):
     nameSupplier = data.cell(i,4)
     
-    noOfProductDict["nameSupplier"] = 1
+    if nameSupplier in noOfProductDict:
+        currentProdNum = noOfProductDict["nameSupplier"]
+        noOfProductDict["nameSupplier"] = currentProdNum + 1
     
