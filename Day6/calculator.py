@@ -1,5 +1,13 @@
-print("Hello"[-1])
+import binascii
 
-print("1123"+"asdf") 
 
+height = input("enter you height in meters\n")
+
+# newHeight  = float(height)
+
+weight = input("enter your weight in kg")
+
+bmi = int(weight) / float(height) ** 2
+bmi1 = int(bmi)
+print(bmi1)
  
